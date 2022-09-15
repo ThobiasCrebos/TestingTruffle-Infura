@@ -1,0 +1,16 @@
+{
+  "name": "smart-web3",
+  "version": "1.0.0",
+  "description": "`Web3.js` is a collection of libraries which allow you to interact with a local or remote Ethereum node using an HTTP or IPC connection. In this exercise, we will use `web3.js` to deploy a contract on the Ethereum Ropsten testnet and play with it. We will first compile a contract, deploy it and finally call some of the contract’s functions. In order for web3 to connect to the Ropsten testnet, we will use `Infura.io` API as our provider.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.6.4",
+    "web3": "^1.2.6"
+  }
+}
